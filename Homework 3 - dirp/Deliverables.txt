@@ -1,8 +1,0 @@
-NAME : dirp - lists contents of the current directory and a couple properties of each entry.
-
-SYNOPSIS : dirp
-
-DESCRIPTION : Lists the names of each entry of the current directory.  Includes the inode number of each entry and what type of entry it is :  file, "f";  directory, "d"; or other, "o".
-EXAMPLES: dirp	displays information about the current directory.
-
-Instructions by Professor Hank Stalica, California State University East Bay (CS 3560 - Intro to Systems Programming)
