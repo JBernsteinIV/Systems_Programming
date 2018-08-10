@@ -1,0 +1,8 @@
+NAME : sod- finds the sum of digits of a specified number and displays it to the screen.
+SYNOPSIS : sod DIGIT
+DESCRIPTION : Accepts an integer as it's only argument.  The program then finds the sum of all digits from 1 through DIGIT and displays it on the screen.  So, if DIGIT was 5, then the program calculates 1 + 2 + 3 + 4 + 5 = 15.  15 is then displayed on the screen.
+EXAMPLES :
+sod	displays synopsis message
+sod 5	displays 15
+
+Instructions by Professor Hank Stalica, California State University East Bay (CS 3560 - Intro to Systems Programming)

@@ -1,0 +1,9 @@
+NAME : mh - displays the first 10 lines of a text file, or the entire file if there are 10 or fewer lines.
+SYNOPSIS : mh FILE
+DESCRIPTION : Accepts the name of a FILE as a command-line argument.  Then displays the top lines of the file.  Shows the first 10 lines or the entire file if there are less than 10 lines in the file.  Displays an appropriate error message if the file fails to open.
+EXAMPLES : 
+mh	        displays synopsis message
+mh textfile	displays the first 10 lines of textfile.
+mh badfile	displays an error message if badfile doesn't exist
+
+Instructions by Professor Hank Stalica, California State University East Bay (CS 3560 - Intro to Systems Programming)
