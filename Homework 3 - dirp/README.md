@@ -46,7 +46,7 @@ Reading data from defined-sized allocations is an O(1) time complexity so things
 
 Files contain several inodes that indicate the memory location of a file on a storage device like your hard drive or SSD. These inodes are also kept organized in an array of values the operating system creates via its kernel. There is a theoretical limit to the number of files that can be exist on a storage device regardless of there being any phyiscal free memory still being available if every inode is used however the *chances* of this happening are astronomically low due to the structure of the inode table.
 
-FILE METADATA DIAGRAM (ext4 file system :: file metadata)
+FILE METADATA AND INODES (ext4 file system :: file metadata)
 ---------------------
 
 [ Mode ][Owner info][Timestamps][File Size][Direct Blocks][Indirect Blocks][Double Indirect][Triple Indirect]
